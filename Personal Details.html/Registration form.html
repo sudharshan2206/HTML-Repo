@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistration Form</title>
+    <link rel="stylesheet" type="text/css" href="Registration.css">
+</head>
+<body>
+    <form>
+    <h1>Student Registration Form</h1> 
+    <table cellpadding="10">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Father's Name:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Mother's Name:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="tel" placeholder="017xxxxx"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type:"email" placeholder="sample225@gmail.com"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td><input type="radio" name="gen">Male
+                <input type="radio" name="gen">Female
+                <input type="radio" name="gen">Other</td>
+        </tr>
+        <tr>
+            <td><label>Date of Birth:</label></td>
+            <td><input type="text" size="3"> - <input type="text" size="3"> - <input type="text" size="3"><i>(dd-mm-yyyy)</i></td>
+        </tr>
+        <tr>
+            <td><label>Address:</label></td>
+            <td><input type="text" size="60" placeholder="Street-   House-   Road-  "></td>
+        </tr>
+        <tr>
+            <td><label>Blood Group:</label></td>
+            <td><select>
+                <option>Select</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>Department</label></td>
+            <td><input type="radio" name="dep">CSE
+                <input type="radio" name="dep">EEE
+                <input type="radio" name="dep">BBA</td>
+        </tr>
+        <tr>
+            <td><label>Course</label></td>
+            <td><input type="checkbox">C
+                <input type="checkbox">C++
+                <input type="checkbox">Java
+                <input type="checkbox">AI
+                <input type="checkbox">Machine Learning
+                <input type="checkbox">Robotics</td>
+        </tr>
+        <tr>
+            <td><label>Photo:</label></td>
+            <td><input type="file"></td>
+        </tr>
+        </table>
+        <br>
+        <input type="Submit"><input type="Reset">
+        </form>
+</body>
+</html>

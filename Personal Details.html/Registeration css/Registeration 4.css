@@ -1,0 +1,19 @@
+table{
+    font-family: Arial;
+    font-size: 20px;
+    background-color: rgb(115, 4, 39);
+    color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="text"],input[type="password"],input[type="tel"],input[type="button"]{
+    width: 300px;
+    padding: 4px;
+}
+input[type="button"]{
+    width: 350px;
+    padding: 3px;
+    font-weight: 200px;
+    background-color: white;
+    font-size: 20px;
+    }

@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://img.freepik.com/premium-photo/epic-battlefield-during-postapocalypse-cinematic-dramatic-futuristic-fantasycruel-war-scenes-digital-paintingai-generated-art_146482-8342.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+div{
+    color: green;
+    font-weight: 800;
+}
+.war1{
+color: blue;
+font-weight: 800;
+}
+.war2{
+    color: red;
+    font-weight: 800;
+}
+h1{
+    color: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
